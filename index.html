@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <center>
+        <ul class="menu1">
+            <li class="links"><a href="#home">Home</a></li>
+            <li class="links"><a href="#grid">Grid View</a></li>
+            <li class="links"><a href="#slide">Slide View</a></li>
+        </ul>
+    </center>
+    <img src="flower.gif">
+    <br>
+    <br>
+    <div class="container">
+
+        <section id="grid">
+            <h1>Grid View</h1>
+            <br>
+            <script src=""></script>
+            <div class="row">
+                <img class="img2" src="glowing.jpeg">
+                <img class="img2" src="rainbow.jpeg">
+                <img class="img2" src="rose_flower.jpeg">
+                <img class="img2" src="sun.jpeg">
+
+            </div>
+        </section>
+
+
+        <section id="slide">
+            <h1>Slide View</h1>
+            <div class="carousel slide" id="myCarousel">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <center><a><img src="rose_flower.jpeg" class="img-responsive"></a>
+                            <div class="carousel-content">
+                                <p>Red Rose Flower</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <a><img src="rainbow.jpeg" class="img-responsive"></a>
+                            <div class="carousel-content">
+                                <p>Rainbow Flower</p>
+                            </div>  
+                        </center>
+                        <center>
+                            <a><img src="glowing.jpeg" class="img-responsive"></a>
+                            <div class="carousel-content">
+                                <p>Glowing Flower</p>
+                            </div>
+                        </center>
+                        <center>
+                            <a><img src="sun.jpeg" class="img-responsive"></a>
+                            <div class="carousel-content">
+                                <p>Sun Flower</p>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </section>
+
+
+
+
+</body>
+
+</html>
